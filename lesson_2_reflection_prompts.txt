@@ -1,33 +1,54 @@
 ﻿What happens when you initialize a repository?
+-git init command initailizes a repository, it creates git repository from our local computer directory.
 
 Why do you need to do it?
 
 
 How is the staging area different from the working directory and the repository?
 
+-we can add one or more than one files with no commits into the staging area to commit all of this files in a single commit.
 
 What value do you think it offers?
 
 
 
-How can you use the staging area to make sure you have one commit per logical
+How can you use the staging area to make sure you have one commit per logical 
 change?
 
+-the staging area is to save all the changes to a file and save it to a stage just before making any commit
 
 
-What are some situations when branches would be helpful in keeping your history
+
+What are some situations when branches would be helpful in keeping your history 
 organized?
+-we could use branches to experiment with our code or make a different version from the same code
+without affecting the master or main branch data.
 
 How would branches help?
 
+
+
+
 How do the diagrams help you visualize the branch structure?
+
+-visualising branch structure diagrams help us in save any previous commit with a new branch
+
+which will not be accesible from the master or any other branch.
+-the commits of a master branch will be accesible from the same master branch and the child branch of that master branch only
+it wont be accesible from the sub-child branches
+
 
 
 
 What is the result of merging two branches together?
+- we can combine the functionality of two developers into one branch by merging them.
 
 Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
 manually?
+
+-the pros of merging automatically is that it does the basic merging where as
+sometimes its not able to merge so we have to do it manaully because machine is not yet powerful.
