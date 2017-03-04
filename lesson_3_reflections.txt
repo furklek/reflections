@@ -7,3 +7,10 @@ with your remote repository?
 -pulling changes manually gives you flexiblity. 
 you can manually pull whenever you have finished updating or adding something to your file.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+-forks: we fork someones repository when we want to have a copy of those files in our git hub
+and later we can clone this repository onto our local machine.
+clones:we could clone files from github to our local machine or clone files from our local directory 
+to a different local directory.
+branches:branches are for working on different version of our code we could make a different branch and
+add our new funtionality and later we could merge it with the master branch so we can combine the new feature.
